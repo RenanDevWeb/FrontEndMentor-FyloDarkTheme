@@ -1,0 +1,338 @@
+@media(min-width: 720px) {
+    
+    a{
+        text-decoration: none;
+    }
+      
+header  figure{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    header figure img{
+        margin:5px;
+        padding: 10px;
+        width: 60%;
+    }    
+
+    header nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+   header nav a img{
+       padding: 20px;
+        width: 100px;
+    }
+    
+    header nav ul li{
+        padding: 0 16px;
+        font-size: 1.2rem;
+    }
+
+
+    header h2{
+        color:#fff;
+        width: 28vw;
+        padding: 12px;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    header p{
+        color: #fff;
+        width: 32vw;
+        text-align: center;
+        font-size: 1rem;
+    }
+    header a{
+        width: 26vw;
+    }
+
+    main .curveBg{
+        position: absolute;
+        top: 65%;   
+        z-index: 1;
+    }
+
+
+    main .services-cards .box-up{
+        display: flex;
+        flex-direction: row;
+    }
+    main .services-cards .box-down{
+        display: flex;
+        flex-direction: row;
+    }
+    main .services-cards{
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+    main .services-cards .box-up{
+        display: flex;
+        flex-direction: row;
+    }
+
+    main .services-cards .card{
+        width: 30vw;
+    }
+
+    main .services-cards .card img{
+        width: 8vw;
+    }
+    
+    main .services-cards .card p{
+        font-size: 1rem;
+    }
+
+
+    article{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    article .produtive{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    article .produtive  img{
+        width: 30vw;
+        margin: 0;
+        margin: 30px;
+    }
+    
+    article .produtive .text{
+        width: 30vw;
+    }
+
+    article .produtive .text h2{
+        font-size: 1.4rem;
+        letter-spacing: 0.6rem;
+        font-weight: 700;
+        margin-top: 5px;
+        color: #fff;
+        text-align: left;
+    }
+    
+    article .produtive .text p{
+        padding: 4px;
+        margin: 8px;
+        font-size: 0.9rem;
+        font-weight: 400;
+        color: #fff;
+        text-align: left;
+    }
+    
+    article .produtive  .text a{
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.2rem;
+        text-align: left;
+        padding: 0 10px;
+    }
+
+
+    .testimonios{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin: 20px 20px 180px 20px;
+    }
+
+
+ .testimonios  .box-tesmonials{
+    background-color: hsl(219, 30%, 18%);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 22vw;
+    margin: 26px;    
+    }
+
+    .box-tesmonials .box-1 p{
+        color: #fff;
+        padding: 12px;
+        margin: 5px;
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+
+    .position{
+        position: absolute;
+        top:302%;
+        left: 20%;
+    }
+    
+
+    .box-acess{
+        background-color: hsl(217, 28%, 15%);
+        width: 56vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+    }
+    
+    .box-acess h2{
+        color: #fff;
+        font-size: 1.6rem;
+        font-weight: 700;
+        padding: 6px;
+        margin: 6px;
+    }
+    
+    .box-acess p{
+        color: #fff;
+        font-size: 1.1rem;
+        font-weight: 700;
+        padding: 10px;
+        margin: 2px 8px;
+        text-align: left;
+    }
+    
+  .position .box-acess .inputText{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 6px;
+    }
+
+    .position .box-acess .inputText .separator{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .box-acess .inputText input[type=email]{
+        width: 30vw;
+        border-radius: 10px;
+        height: 20px;
+        text-align: left;
+        margin: 10px 0 ; 
+    }
+    
+    .box-acess .inputText a{
+        width: 26%;
+        text-decoration: none;
+        color: #fff;
+        text-align: center;
+        border-radius: 10px;
+        margin: 10px  12px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        background: rgb(101,226,217);
+        background: -moz-linear-gradient(4deg, rgba(101,226,217,1) 0%, rgba(51,158,204,1) 46%);
+        background: -webkit-linear-gradient(4deg, rgba(101,226,217,1) 0%, rgba(51,158,204,1) 46%);
+        background: linear-gradient(4deg, rgba(101,226,217,1) 0%, rgba(51,158,204,1) 46%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#65e2d9",endColorstr="#339ecc",GradientType=1);
+    }
+
+    
+    
+    .position .box-acess .errorMenssagee{
+        color: red;
+        margin: 0%;
+        padding: 0;
+        font-size: 0.8rem;
+        text-align: left;
+    }
+    
+
+   footer{
+       padding: 10px 40px;
+       background: hsl(216, 53%, 9%)
+
+   }
+
+    footer a img{
+        padding: 12px 120px;
+        width: 160px;
+        margin-top: 40px;
+    }
+    
+    footer .adress{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 0 120px;
+        /* width: 70vw; */
+    }
+    
+    footer .adresss{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 0 60px  ;
+        font-size: 1rem;
+    }
+    
+    footer .adress .bloco{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    footer .adresss .bloco{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    footer .adress img{
+      width: 15px;
+      height: 15px;
+    }
+    
+    
+    footer ul{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding: 0 20px;
+    }
+    
+    footer ul .padd{
+        margin-top: 0;
+    }
+    
+    footer ul li{
+        color: #fff;
+        font-size: 1rem;
+    }
+    
+    
+    
+    
+    .social-medias{
+        color: #fff;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding:  0  10px ;
+        margin-left: 10px;
+    }
+    .social-medias i{
+        font-size: 1.2rem;
+    
+    }    
+    
+
+}
